@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <header>
+                <a href="index.html"><h1>Blackjack</h1></a>
+            </header>
+            <button id="start-game">Start Game</button>
+            <button id="draw-card" style="display: none;">Draw Card</button>
+            <button id="stop-game" style="display: none;">Stop Drawing</button>
+            <footer>Copyright © 2024 Volodymyr</footer>
+        </div>
+        <main>
+            <section class="game">
+                <div class="cards" id="player-cards">
+                    <img src="Playing-Cards/6_of_clubs.png" alt="Six of clubs playing card" data-value="6">
+                    <img src="Playing-Cards/6_of_diamonds.png" alt="Six of diamonds playing card" data-value="6">
+                    <img src="Playing-Cards/6_of_hearts.png" alt="Six of hearts playing card" data-value="6">
+                    <img src="Playing-Cards/6_of_spades.png" alt="Six of spades playing card" data-value="6">
+                    <img src="Playing-Cards/7_of_clubs.png" alt="Seven of clubs playing card" data-value="7">
+                    <img src="Playing-Cards/7_of_diamonds.png" alt="Seven of diamonds playing card" data-value="7">
+                    <img src="Playing-Cards/7_of_hearts.png" alt="Seven of hearts playing card" data-value="7">
+                    <img src="Playing-Cards/7_of_spades.png" alt="Seven of spades playing card" data-value="7">
+                    <img src="Playing-Cards/8_of_clubs.png" alt="Eight of clubs playing card" data-value="8">
+                    <img src="Playing-Cards/8_of_clubs.png" alt="Eight of diamonds playing card" data-value="8">
+                    <img src="Playing-Cards/8_of_clubs.png" alt="Eight of hearts playing card" data-value="8">
+                    <img src="Playing-Cards/8_of_spades.png" alt="Eight of spades playing card" data-value="8">
+                    <img src="Playing-Cards/9_of_clubs.png" alt="Nine of clubs playing card" data-value="9">
+                    <img src="Playing-Cards/9_of_clubs.png" alt="Nine of diamonds playing card" data-value="9">
+                    <img src="Playing-Cards/9_of_clubs.png" alt="Nine of hearts playing card" data-value="9">
+                    <img src="Playing-Cards/9_of_spades.png" alt="Nine of spades playing card" data-value="9">
+                    <img src="Playing-Cards/10_of_clubs.png" alt="Ten of clubs playing card" data-value="10">
+                    <img src="Playing-Cards/10_of_clubs.png" alt="Ten of diamonds playing card" data-value="10">
+                    <img src="Playing-Cards/10_of_clubs.png" alt="Ten of hearts playing card" data-value="10">
+                    <img src="Playing-Cards/10_of_spades.png" alt="Ten of spades playing card" data-value="10">
+                    <img src="Playing-Cards/jack_of_clubs2.png" alt="Jack of clubs playing card" data-value="10">
+                    <img src="Playing-Cards/jack_of_diamonds2.png" alt="Jack of diamonds playing card" data-value="10">
+                    <img src="Playing-Cards/jack_of_hearts2.png" alt="Jack of hearts playing card" data-value="10">
+                    <img src="Playing-Cards/jack_of_spades2.png" alt="Jack of spades playing card" data-value="10">
+                    <img src="Playing-Cards/queen_of_clubs2.png" alt="Queen of clubs playing card" data-value="10">
+                    <img src="Playing-Cards/queen_of_diamonds2.png" alt="Queen of diamonds playing card" data-value="10">
+                    <img src="Playing-Cards/queen_of_hearts2.png" alt="Queen of hearts playing card" data-value="10">
+                    <img src="Playing-Cards/queen_of_spades2.png" alt="Queen of spades playing card" data-value="10">
+                    <img src="Playing-Cards/king_of_clubs2.png" alt="King of clubs playing card" data-value="10">
+                    <img src="Playing-Cards/king_of_diamonds2.png" alt="King of diamonds playing card" data-value="10">
+                    <img src="Playing-Cards/king_of_hearts2.png" alt="King of hearts playing card" data-value="10">
+                    <img src="Playing-Cards/king_of_spades2.png" alt="King of spades playing card" data-value="10">
+                    <img src="Playing-Cards/ace_of_clubs.png" alt="Ace of clubs playing card" data-value="11">
+                    <img src="Playing-Cards/ace_of_diamonds.png" alt="Ace of diamonds playing card" data-value="11">
+                    <img src="Playing-Cards/ace_of_hearts.png" alt="Ace of hearts playing card" data-value="11">
+                    <img src="Playing-Cards/ace_of_spades.png" alt="Ace of spades playing card" data-value="11">
+                </div>
+                <p id="message"></p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
