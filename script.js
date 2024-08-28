@@ -39,7 +39,7 @@ drawCardButton.addEventListener('click', function() {
         if (playerHand > 21) {
             endGame(`Bust! You have ${playerHand}. You lose!`);
         } else if (playerHand === 21) {
-            endGame(`Blackjack! You have ${playerHand}. You win!`);
+            endGame(`What the ...?! Blackjack! You have ${playerHand}. F***ing lucky human!`);
         } else {
             message.textContent = `You drew a card worth ${cardValue}. Your total is now ${playerHand}.`;
         }
